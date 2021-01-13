@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+    
   <display-name>BechDo</display-name>
-  
-  
+    
   <servlet>
     <servlet-name>Product</servlet-name>
-    <servlet-class>Controller.ProductRequest</servlet-class>
+    <servlet-class>br.com.rafael.controller.ProductRequest</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>Product</servlet-name>
     <url-pattern>/Product</url-pattern>
   </servlet-mapping>
 
-
   <servlet>
     <servlet-name>Single</servlet-name>
-    <servlet-class>Controller.Single</servlet-class>
+    <servlet-class>br.com.rafael.controller.Single</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>Single</servlet-name>
@@ -23,7 +22,7 @@
   </servlet-mapping>
   <servlet>
     <servlet-name>Loigin</servlet-name>
-    <servlet-class>Controller.Login</servlet-class>
+    <servlet-class>br.com.rafael.controller.Login</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>Loigin</servlet-name>
@@ -31,7 +30,7 @@
   </servlet-mapping>
   <servlet>
     <servlet-name>Post</servlet-name>
-    <servlet-class>Controller.Post</servlet-class>
+    <servlet-class>br.com.rafael.controller.Post</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>Post</servlet-name>
