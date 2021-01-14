@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>BechDo</title>
+<title>Loja de Creusa</title>
 <link rel="stylesheet" href="css/bootstrap.min.css"><!-- bootstrap-CSS -->
 <link rel="stylesheet" href="css/bootstrap-select.css"><!-- bootstrap-select-CSS -->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" /><!-- style.css -->
@@ -205,11 +205,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="agile-its-header">
 				<div class="logo">
-					<h1><a href="Home.jsp"><span>Bech</span>Do</a></h1>
+					<h1><a href="Home.jsp"><span>LojaDa</span>Creusa</a></h1>
 				</div>
 				<div class="agileits_search">
 					<form action="Search.jsp" method="">
-						<input name="Search" value="" type="text" placeholder="How can we help you today?"  />
+						<input name="Search" value="" type="text" placeholder="Como podemos ajudar você hoje?"  />
 						<select id="agileinfo_search" name="" >
 							<option value="">Todas as Categorias</option>
 							<option value="Telefones">Telefones</option>
