@@ -1,13 +1,13 @@
 <!--
-Author: W3layouts
-Author URL: http://w3layouts.com
+Author: RafaelJavaJr
+Author URL: https://github.com/RafaelJavaJr/
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Resale_v2 a Classified ads Category Flat Bootstrap Responsive Website Template | Sign up :: w3layouts</title>
+<title>Receber Novidades por Email</title>
 <link rel="stylesheet" href="css/bootstrap.min.css"><!-- bootstrap-CSS -->
 <link rel="stylesheet" href="css/bootstrap-select.css"><!-- bootstrap-select-CSS -->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" /><!-- style.css -->
@@ -132,7 +132,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<a href="help.html"><i class="fa fa-question-circle" aria-hidden="true"></i> Ajuda</a>
 					</li>
 					<li class="dropdown head-dpdn">
-						<a href="#"><span class="active uls-trigger"><i class="fa fa-language" aria-hidden="true"></i>linguagens</span></a>
+						<a href="#"><span class="active uls-trigger"><i class="fa fa-language" aria-hidden="true"></i>Idiomas</span></a>
 					</li>
 					<li class="dropdown head-dpdn">
 						<div class="header-right">			
@@ -193,7 +193,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="agileits_search">
 					<form action="#" method="post">
-						<input name="Search" type="text" placeholder="How can we help you today?" required=" ">
+						<input name="Search" type="text" placeholder="Como posso ajudá-lo?" required=" ">
 						<select id="agileinfo_search" name="agileinfo_search" required="">
 							<option value="">Categorias</option>
 							<option value="Telefones">Telefones</option>
@@ -235,7 +235,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<label class="checkbox"><input type="checkbox" name="checkbox">Concordo <a class="w3layouts-t" href="terms.html" target="_blank">Termos de Uso</a> e <a class="w3layouts-t" href="privacy.html" target="_blank">Política de Privacidade</a></label>
 						</span>
 					</div>
-					<input type="submit" value="Sign Up">
+					<input type="submit" value="Assinar">
 				</form>
 			</div>
 		</div>
@@ -252,7 +252,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<p>The point of using Lorem Ipsum is that it has a more-or-less normal letters, as opposed to using 'Content here.</p>
 						</div>
 						<div class="col-md-3 wthree-footer-grid">
-							<h4 class="footer-head">Help</h4>
+							<h4 class="footer-head">Ajuda</h4>
 							<ul>
 								<li><a href="howitworks.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Como Funciona</a></li>						
 								<li><a href="sitemap.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Mapa do Site</a></li>
@@ -260,7 +260,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<li><a href="feedback.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Feedback</a></li>
 								<li><a href="contact.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Contato</a></li>
 								<li><a href="typography.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Short codes</a></li>
-								<li><a href="icons.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Icones</a></li>
+								<li><a href="icons.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>ícones</a></li>
 							</ul>
 						</div>
 						<div class="col-md-3 wthree-footer-grid">
@@ -278,12 +278,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<address>
 								<ul class="location">
 									<li><span class="glyphicon glyphicon-map-marker"></span></li>
-									<li>CENTRO DE FINANCIAMENTO PARA DEPOSITO DE ROYALTYS</li>
+									<li>CONTA BANCÁRIA PARA DEPÓSITO</li>
 								</ul>	
 								<div class="clearfix"> </div>
 								<ul class="location">
 									<li><span class="glyphicon glyphicon-earphone"></span></li>
-									<li>+0 561 111 235</li>
+									<li>(45) 9-8819-3543</li>
 								</ul>	
 								<div class="clearfix"> </div>
 								<ul class="location">
