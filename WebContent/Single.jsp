@@ -249,17 +249,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="agileits_search">
 						<form action="Search" method="post">
 							<input name="SearchProuct" value="" type="text"
-								placeholder="How can we help you today?" /> <select
+								placeholder="Como posso ajudar?" /> <select
 								id="agileinfo_search" name="Search">
 								<option value="">Categorias</option>
 								<option value="Bicicletas">Bicicletas</option>
-								<option value="Eletronicos & Aplicativos">Eletronicos &
-									Aplicativos</option>
+								<option value="Eletronicos & Aplicativos">Eletronicos & Aplicativos</option>
 								<option value="Carros">Carros</option>
 								<option value="Bicicletas">Bicicletas</option>
 								<option value="Móveis">Móveis</option>
-								<option value="Livros, Esportes & Hobbies">Livros,
-									Esportes & Hobbies</option>
+								<option value="Livros, Esportes & Hobbies">Livros, Esportes & Hobbies</option>
 								<option value="Moda">Moda</option>
 								<option value="Crianças">Crianças</option>
 								<option value="Serviços">Serviços</option>
@@ -383,7 +381,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="container">
 				<div class="wthree-foo-grids">
 					<div class="col-md-3 wthree-footer-grid">
-						<h4 class="footer-head">Who We Are</h4>
+						<h4 class="footer-head">Quem somos nós</h4>
 						<p>It is a long established fact that a reader will be
 							distracted by the readable content of a page when looking at its
 							layout.</p>
@@ -394,11 +392,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h4 class="footer-head">Ajuda</h4>
 						<ul>
 							<li><a href="howitworks.html"><i
-									class="fa fa-long-arrow-right" aria-hidden="true"></i>Como
-									Funciona</a></li>
+									class="fa fa-long-arrow-right" aria-hidden="true"></i>Como Funciona</a></li>
 							<li><a href="sitemap.html"><i
-									class="fa fa-long-arrow-right" aria-hidden="true"></i>Mapa do
-									Site</a></li>
+									class="fa fa-long-arrow-right" aria-hidden="true"></i>Mapa do Site</a></li>
 							<li><a href="faq.html"><i class="fa fa-long-arrow-right"
 									aria-hidden="true"></i>Faq</a></li>
 							<li><a href="feedback.html"><i
@@ -406,8 +402,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<li><a href="contact.html"><i
 									class="fa fa-long-arrow-right" aria-hidden="true"></i>Contato</a></li>
 							<li><a href="typography.html"><i
-									class="fa fa-long-arrow-right" aria-hidden="true"></i>Short
-									codes</a></li>
+									class="fa fa-long-arrow-right" aria-hidden="true"></i>Short codes</a></li>
 							<li><a href="icons.html"><i
 									class="fa fa-long-arrow-right" aria-hidden="true"></i>ícones</a></li>
 						</ul>

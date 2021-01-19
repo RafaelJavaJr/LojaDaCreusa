@@ -9,7 +9,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Resale_v2 a Classified ads Category Flat Bootstrap Responsive Website Template | Sign in :: w3layouts</title>
+<title>Login</title>
 <link rel="stylesheet" href="css/bootstrap.min.css"><!-- bootstrap-CSS -->
 <link rel="stylesheet" href="css/bootstrap-select.css"><!-- bootstrap-select-CSS -->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" /><!-- style.css -->
@@ -84,35 +84,33 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="menu-wrap">
 				<nav class="menu">
 					<div class="icon-list">
-						<a href="Product?p=mobile"><i class="fa fa-fw fa-mobile"></i><span>Mobiles</span></a>
+						<a href="Product?p=mobile"><i class="fa fa-fw fa-mobile"></i><span>Telefones</span></a>
 						
-						<a href="Product?p=electronic"><i class="fa fa-fw fa-laptop"></i><span>Electronics and appliances</span></a>
+						<a href="Product?p=electronic"><i class="fa fa-fw fa-laptop"></i><span>Eletrônicos and aplicações</span></a>
 						
-						<a href="Product?p=car"><i class="fa fa-fw fa-car"></i><span>Cars</span></a>
+						<a href="Product?p=car"><i class="fa fa-fw fa-car"></i><span>Carros</span></a>
 						
-						<a href="Product?p=bike"><i class="fa fa-fw fa-motorcycle"></i><span>Bikes</span></a>
+						<a href="Product?p=bike"><i class="fa fa-fw fa-motorcycle"></i><span>Bicilcletas</span></a>
 						
-						<a href="Product?p=furniture"><i class="fa fa-fw fa-wheelchair"></i><span>Furnitures</span></a>
+						<a href="Product?p=furniture"><i class="fa fa-fw fa-wheelchair"></i><span>Móveis</span></a>
 						
-						<a href="Product?p=pet"><i class="fa fa-fw fa-paw"></i><span>Pets</span></a>
+						<a href="Product?p=pet"><i class="fa fa-fw fa-paw"></i><span>Animais</span></a>
 						
-						<a href="Product?p=book"><i class="fa fa-fw fa-book"></i><span>Books, Sports & Hobbies</span></a>
+						<a href="Product?p=book"><i class="fa fa-fw fa-book"></i><span>Livros, Esportes & Hobbies</span></a>
 						
-						<a href="Product?p=fashion"><i class="fa fa-fw fa-asterisk"></i><span>Fashion</span></a>
+						<a href="Product?p=fashion"><i class="fa fa-fw fa-asterisk"></i><span>Moda</span></a>
 						
-						<a href="Product?p=kids"><i class="fa fa-fw fa-asterisk"></i><span>Kids</span></a>
+						<a href="Product?p=kids"><i class="fa fa-fw fa-asterisk"></i><span>Crianças</span></a>
 						
-						<a href="Product?p=service"><i class="fa fa-fw fa-shield"></i><span>Services</span></a>
+						<a href="Product?p=service"><i class="fa fa-fw fa-shield"></i><span>Serviços</span></a>
 						
-						<a href="Product?p=jobs"><i class="fa fa-fw fa-at"></i><span>Jobs</span></a>
+						<a href="Product?p=jobs"><i class="fa fa-fw fa-at"></i><span>Empregoss</span></a>
 						
 						<a href="Product?p=realstate"><i class="fa fa-fw fa-home"></i><span>Real Estate</span></a>
-						
-						
 						  
 					</div>
 				</nav>
-				<button class="close-button" id="close-button">Close Menu</button>
+				<button class="close-button" id="close-button">Fechar Menu</button>
 			</div>
 			<button class="menu-button" id="open-button"> </button>
 			</div>
@@ -128,20 +126,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="w3ls-header-right">
 				<ul>
 					<li class="dropdown head-dpdn">
-						<a href="Signup.jsp" aria-expanded="false"><i class="fa fa-user" aria-hidden="true"></i> Sign Up</a>
+						<a href="Signup.jsp" aria-expanded="false"><i class="fa fa-user" aria-hidden="true"></i> Logar</a>
 					</li>
 					<li class="dropdown head-dpdn">
-						<a href="help.html"><i class="fa fa-question-circle" aria-hidden="true"></i> Help</a>
+						<a href="help.html"><i class="fa fa-question-circle" aria-hidden="true"></i> Ajuda</a>
 					</li>
 					<li class="dropdown head-dpdn">
-						<a href="#"><span class="active uls-trigger"><i class="fa fa-language" aria-hidden="true"></i>languages</span></a>
+						<a href="#"><span class="active uls-trigger"><i class="fa fa-language" aria-hidden="true"></i>Idioma</span></a>
 					</li>
 					<li class="dropdown head-dpdn">
 						<div class="header-right">			
 	<!-- Large modal -->
 			<div class="selectregion">
 				<button class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-				<i class="fa fa-globe" aria-hidden="true"></i>Select City</button>
+				<i class="fa fa-globe" aria-hidden="true"></i>Selecionar Cidade</button>
 					<div class="modal fade" id="myModal" tabindex="-1" role="dialog"  
 					aria-hidden="true">
 						<div class="modal-dialog modal-lg">
@@ -150,26 +148,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
 										&times;</button>
 									<h4 class="modal-title" id="myModalLabel">
-										Please Choose Your Location</h4>
+										Por Favor, Escolha Sua Localização</h4>
 								</div>
 								<div class="modal-body">
 									 <form class="form-horizontal" action="#" method="get">
 										<div class="form-group">
 											<select id="basic2" class="show-tick form-control" multiple>
-												<optgroup label="Popular Cities">
-													<option selected style="display:none;color:#eee;">Select City</option>
-													<option>Mumbai</option>
-													<option>Delhi</option>
-													<option>Kolkata</option>
-													<option>Chennai</option>
-													<option>Bangalore</option>
-													
-												</optgroup>												
-													<optgroup label="West Bengal">
-														<option>Kolkata</option>
-														<option>Siliguri</option>
-														<option>Durgapure</option>
-													</optgroup>
+												<optgroup label="Cidades">
+																	<option selected style="display: none; color: #eee;">Selecione a Cidade</option>
+																	<option>Curitiba</option>
+																	<option>Londrina</option>
+																	<option>Maringá</option>
+																	<option>Cascavel</option>																	
+
+																</optgroup>
+																<optgroup label="Região">
+																	<option>Campo Bonito</option>
+																	<option>Guaraniaçu</option>
+																	<option>Ibema</option>
+																</optgroup>
 											
 											</select>
 										</div>
@@ -189,30 +186,31 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="agile-its-header">
 				<div class="logo">
-					<h1><a href="Home.jsp"><span>Bech</span>Do</a></h1>
+					<h1><a href="Home.jsp"><span>LojaDa</span>Creusa</a></h1>
 				</div>
 				<div class="agileits_search">
 					<form action="#" method="post">
-						<input name="Search" type="text" placeholder="How can we help you today?" required=" ">
-						<select id="agileinfo_search" name="agileinfo_search" required="">
-							<option value="">All Categories</option>
-							<option value="Mobiles">Mobiles</option>
-							<option value="Electronics & Appliances">Electronics & Appliances</option>
-							<option value="Cars">Cars</option>
-							<option value="Bikes">Bikes</option>
-							<option value="Furnitures">Furnitures</option>
-							<option value="Books, Sports & Hobbies">Books, Sports & Hobbies</option>
-							<option value="Fashion">Fashion</option>
-							<option value="Kids">Kids</option>
-							<option value="Services">Services</option>
-							<option value="Jobs">Jobs</option>
-							<option value="Real Estates">Real Estates</option>
-						</select>
+						<input name="Search" type="text" placeholder="Como posso ajudar?" /> <select
+								id="agileinfo_search" name="Search">
+								<option value="">Categorias</option>
+								<option value="Bicicletas">Bicicletas</option>
+								<option value="Eletronicos & Aplicativos">Eletronicos & Aplicativos</option>
+								<option value="Carros">Carros</option>
+								<option value="Bicicletas">Bicicletas</option>
+								<option value="Móveis">Móveis</option>
+								<option value="Livros, Esportes & Hobbies">Livros, Esportes & Hobbies</option>
+								<option value="Moda">Moda</option>
+								<option value="Crianças">Crianças</option>
+								<option value="Serviços">Serviços</option>
+								<option value="Empregos">Empregos</option>
+								<option value="Real Estates">Real Estates</option>
+							</select>
+
 						<button type="submit" class="btn btn-default" aria-label="Left Align">
 							<i class="fa fa-search" aria-hidden="true"> </i>
 						</button>
 					</form>
-				<a class="post-w3layouts-ad" href="Postad.jsp">Post Free Ad</a>
+				<a class="post-w3layouts-ad" href="Postad.jsp">Postar Anúncio</a>
 				</div>	
 				<div class="clearfix"></div>
 			</div>
@@ -230,9 +228,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<input type="submit" value="submit" >
 					</form>
 					<div class="forgot-grid">
-						<label class="checkbox"><input type="checkbox" name="checkbox">Remember me</label>
+						<label class="checkbox"><input type="checkbox" name="checkbox">Lembrar</label>
 						<div class="forgot">
-							<a href="#" data-toggle="modal" data-target="#myModal2">Forgot Password?</a>
+							<a href="#" data-toggle="modal" data-target="#myModal2">Esqueci a Senha?</a>
 						</div>
 						<!-- Modal -->
 						<div class="modal fade" id="myModal2" role="dialog">
@@ -242,11 +240,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="modal-content">
 									<div class="modal-header">
 										<button type="button" class="close" data-dismiss="modal">&times;</button>
-										<h3 class="w3ls-password">Get Password</h3>		
-										<p class="get-pw">Enter your email address below and we'll send you an email with instructions.</p>
+										<h3 class="w3ls-password">Obter Senha</h3>		
+										<p class="get-pw">Entre com o seu endereço de e-mail e nós lhe enviaremos um email com instruções.</p>
 										<form action="#" method="post">
 											<input type="text" class="user" name="email" placeholder="Email" required="">
-											<input type="submit" value="Submit">
+											<input type="submit" value="Enviar">
 										</form>
 									</div>
 								</div>
@@ -256,88 +254,115 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="clearfix"> </div>
 					</div>
 				
-				<h6> Not a Member Yet? <a href="Signup.jsp">Sign Up Now</a> </h6>
+				<h6> Ainda não é membro? <a href="Signup.jsp">Assine Agora</a> </h6>
 			</div>
 		</div>
 	</section>
 	<!-- //sign in form -->
-	<!--footer section start-->		
-		<footer>
-			<div class="w3-agileits-footer-top">
-				<div class="container">
-					<div class="wthree-foo-grids">
-						<div class="col-md-3 wthree-footer-grid">
-							<h4 class="footer-head">Who We Are</h4>
-							<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-							<p>The point of using Lorem Ipsum is that it has a more-or-less normal letters, as opposed to using 'Content here.</p>
-						</div>
-						<div class="col-md-3 wthree-footer-grid">
-							<h4 class="footer-head">Help</h4>
-							<ul>
-								<li><a href="howitworks.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>How it Works</a></li>						
-								<li><a href="sitemap.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Sitemap</a></li>
-								<li><a href="faq.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Faq</a></li>
-								<li><a href="feedback.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Feedback</a></li>
-								<li><a href="contact.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Contact</a></li>
-								<li><a href="typography.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Short codes</a></li>
-								<li><a href="icons.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Icons Page</a></li>
+	<!--footer section start-->
+	<footer>
+		<div class="w3-agileits-footer-top">
+			<div class="container">
+				<div class="wthree-foo-grids">
+					<div class="col-md-3 wthree-footer-grid">
+						<h4 class="footer-head">Quem somos nós</h4>
+						<p>It is a long established fact that a reader will be
+							distracted by the readable content of a page when looking at its
+							layout.</p>
+						<p>The point of using Lorem Ipsum is that it has a
+							more-or-less normal letters, as opposed to using 'Content here.</p>
+					</div>
+					<div class="col-md-3 wthree-footer-grid">
+						<h4 class="footer-head">Ajuda</h4>
+						<ul>
+							<li><a href="howitworks.html"><i
+									class="fa fa-long-arrow-right" aria-hidden="true"></i>Como Funciona</a></li>
+							<li><a href="sitemap.html"><i
+									class="fa fa-long-arrow-right" aria-hidden="true"></i>Mapa do Site</a></li>
+							<li><a href="faq.html"><i class="fa fa-long-arrow-right"
+									aria-hidden="true"></i>Faq</a></li>
+							<li><a href="feedback.html"><i
+									class="fa fa-long-arrow-right" aria-hidden="true"></i>Feedback</a></li>
+							<li><a href="contact.html"><i
+									class="fa fa-long-arrow-right" aria-hidden="true"></i>Contato</a></li>
+							<li><a href="typography.html"><i
+									class="fa fa-long-arrow-right" aria-hidden="true"></i>Short codes</a></li>
+							<li><a href="icons.html"><i
+									class="fa fa-long-arrow-right" aria-hidden="true"></i>ícones</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 wthree-footer-grid">
+						<h4 class="footer-head">Informação</h4>
+						<ul>
+							<li><a href="regions.html"><i
+									class="fa fa-long-arrow-right" aria-hidden="true"></i>Mapas</a></li>
+							<li><a href="terms.html"><i
+									class="fa fa-long-arrow-right" aria-hidden="true"></i>Termos de
+									Uso</a></li>
+							<li><a href="popular-search.html"><i
+									class="fa fa-long-arrow-right" aria-hidden="true"></i>Pesquisas
+									mais acessadas</a></li>
+							<li><a href="privacy.html"><i
+									class="fa fa-long-arrow-right" aria-hidden="true"></i>Política
+									de Privacidade</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 wthree-footer-grid">
+						<h4 class="footer-head">Contato</h4>
+						<span class="hq">Nosso Quartel General</span>
+						<address>
+							<ul class="location">
+								<li><span class="glyphicon glyphicon-map-marker"></span></li>
+								<li>CONTA BANCÁRIA PARA DEPÓSITO</li>
 							</ul>
-						</div>
-						<div class="col-md-3 wthree-footer-grid">
-							<h4 class="footer-head">Information</h4>
-							<ul>
-								<li><a href="regions.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Locations Map</a></li>	
-								<li><a href="terms.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Terms of Use</a></li>
-								<li><a href="popular-search.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Popular searches</a></li>	
-								<li><a href="privacy.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Privacy Policy</a></li>	
+							<div class="clearfix"></div>
+							<ul class="location">
+								<li><span class="glyphicon glyphicon-earphone"></span></li>
+								<li>(45) 9-8819-3543</li>
 							</ul>
-						</div>
-						<div class="col-md-3 wthree-footer-grid">
-							<h4 class="footer-head">Contact Us</h4>
-							<span class="hq">Our headquarters</span>
-							<address>
-								<ul class="location">
-									<li><span class="glyphicon glyphicon-map-marker"></span></li>
-									<li>CENTER FOR FINANCIAL ASSISTANCE TO DEPOSED NIGERIAN ROYALTY</li>
-								</ul>	
-								<div class="clearfix"> </div>
-								<ul class="location">
-									<li><span class="glyphicon glyphicon-earphone"></span></li>
-									<li>+0 561 111 235</li>
-								</ul>	
-								<div class="clearfix"> </div>
-								<ul class="location">
-									<li><span class="glyphicon glyphicon-envelope"></span></li>
-									<li><a href="mailto:info@example.com">mail@example.com</a></li>
-								</ul>						
-							</address>
-						</div>
-						<div class="clearfix"></div>
-					</div>						
-				</div>	
-			</div>	
-	<div class="agileits-footer-bottom text-center">
+							<div class="clearfix"></div>
+							<ul class="location">
+								<li><span class="glyphicon glyphicon-envelope"></span></li>
+								<li><a href="mailto:info@example.com">ferreira.rfl@gmail.com</a></li>
+							</ul>
+						</address>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+		<div class="agileits-footer-bottom text-center">
 			<div class="container">
 				<div class="w3-footer-logo">
-					<h1><a href="index.html"><span>Bech</span>Do</a></h1>
+					<h1>
+						<a href="index.html"><span>LojaDa</span>Creusa</a>
+					</h1>
 				</div>
 				<div class="w3-footer-social-icons">
 					<ul>
-						<li><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a></li>
-						<li><a class="twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twitter</span></a></li>
-						<li><a class="flickr" href="#"><i class="fa fa-flickr" aria-hidden="true"></i><span>Flickr</span></a></li>
-						<li><a class="googleplus" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i><span>Google+</span></a></li>
-						<li><a class="dribbble" href="#"><i class="fa fa-dribbble" aria-hidden="true"></i><span>Dribbble</span></a></li>
+						<li><a class="facebook" href="#"><i
+								class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a></li>
+						<li><a class="twitter" href="#"><i class="fa fa-twitter"
+								aria-hidden="true"></i><span>Twitter</span></a></li>
+						<li><a class="flickr" href="#"><i class="fa fa-flickr"
+								aria-hidden="true"></i><span>Flickr</span></a></li>
+						<li><a class="googleplus" href="#"><i
+								class="fa fa-google-plus" aria-hidden="true"></i><span>Google+</span></a></li>
+						<li><a class="dribbble" href="#"><i
+								class="fa fa-dribbble" aria-hidden="true"></i><span>Dribbble</span></a></li>
 					</ul>
 				</div>
 				<div class="copyrights">
-					<p> © 2019 BechDo All Rights Reserved | Design and Developed by  <a href=""> @Soumyadip</a></p>
+					<p>
+						© 2019 LojaDaCreusa All Rights Reserved | Design and Developed by
+						<a href=""> @Rafael</a>
+					</p>
 				</div>
 				<div class="clearfix"></div>
 			</div>
 		</div>
-		</footer>
-        <!--footer section end-->
+	</footer>
+	<!--footer section end-->
 </body>
 		<!-- Navigation-JavaScript -->
 			<script src="js/classie.js"></script>

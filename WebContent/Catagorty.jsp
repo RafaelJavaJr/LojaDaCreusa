@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Loja de Creusa</title>
+<title>Loja da Creusa</title>
 <link rel="stylesheet" href="css/bootstrap.min.css"><!-- bootstrap-CSS -->
 <link rel="stylesheet" href="css/bootstrap-select.css"><!-- bootstrap-select-CSS -->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" /><!-- style.css -->
@@ -173,20 +173,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									 <form class="form-horizontal" action="#" method="get">
 										<div class="form-group">
 											<select id="basic2" class="show-tick form-control" multiple>
-												<optgroup label="Popular Cities">
-													<option selected style="display:none;color:#eee;">Selecione Cidade</option>
-													<option>Mumbai</option>
-													<option>Delhi</option>
-													<option>Kolkata</option>
-													<option>Chennai</option>
-													<option>Bangalore</option>
-													
-												</optgroup>												
-													<optgroup label="West Bengal">
-														<option>Kolkata</option>
-														<option>Siliguri</option>
-														<option>Durgapure</option>
-													</optgroup>
+												<optgroup label="Cidades">
+																	<option selected style="display: none; color: #eee;">Selecione a Cidade</option>
+																	<option>Curitiba</option>
+																	<option>Londrina</option>
+																	<option>Maringá</option>
+																	<option>Cascavel</option>																	
+
+																</optgroup>
+																<optgroup label="Região">
+																	<option>Campo Bonito</option>
+																	<option>Guaraniaçu</option>
+																	<option>Ibema</option>
+																</optgroup>
+
 											</select>
 										</div>
 									  </form>    
@@ -209,7 +209,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="agileits_search">
 					<form action="Search.jsp" method="">
-						<input name="Search" value="" type="text" placeholder="Como podemos ajudar você hoje?"  />
+						<input name="Search" value="" type="text" placeholder="Como posso ajudar?"  />
 						<select id="agileinfo_search" name="" >
 							<option value="">Todas as Categorias</option>
 							<option value="Telefones">Telefones</option>
