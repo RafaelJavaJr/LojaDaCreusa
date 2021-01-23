@@ -525,22 +525,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 													class="glyphicon glyphicon-th-list"></i></a>
 											</div>
 
-
-
-
-											<sql:setDataSource var="con" driver="com.mysql.jdbc.Driver"
-												url="jdbc:mysql://localhost:3306/resell" user="root"
-												password="" />
+											<sql:setDataSource var="con" driver="org.postgresql.Driver"
+												url="jdbc:postgresql://localhost:5432/lojadacreusa?autoReconnect=true" user="postgres"
+												password="admin" />
 
 											<sql:query var="listUsers" dataSource="${con}">
-        SELECT * FROM product where type='<%=product%>' order by rand();
-    </sql:query>
+    		    								SELECT * FROM product where type='<%=product%>' order by rand();
+    										</sql:query>
 
 											<div class="clearfix"></div>
 
-
 											<ul class="list">
-
 												<c:forEach var="prod" items="${listUsers.rows}">
 													<a href="Single?single=${prod.id}">
 														<li><img src="images/m13.jpg" title="" alt="" />
@@ -557,7 +552,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 														<div class="clearfix"></div>
 													</a>
 												</c:forEach>
-
 											</ul>
 										</div>
 									</div>
